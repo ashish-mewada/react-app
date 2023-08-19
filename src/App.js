@@ -1,12 +1,10 @@
-import './App.css';
-import FormComponent from './components/CreateAccount/FormComponent';
+import "./App.css";
+import HomeFolders from "./components/Home-Folders/HomeFolders";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <FormComponent/>
-      </header>
+      <HomeFolders />
     </div>
   );
 }
