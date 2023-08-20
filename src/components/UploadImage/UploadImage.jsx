@@ -11,7 +11,7 @@ function UploadImage({ folderName }) {
     if (selectedFile) {
       const formData = new FormData();
       formData.append("image", selectedFile);
-      formData.append("folderName", folderName);
+      formData.append("document_category", folderName);
 
       fetch("YOUR_API_ENDPOINT", {
         method: "POST",
